@@ -1,0 +1,67 @@
+export const AppTheme = {
+  colors: {
+    primary: '#4A638D',
+    primaryLight: '#E6EBF4',
+    secondary: '#F9AC66',
+    accent: '#F5785A',
+    success: '#4CAF50',
+    warning: '#FF9800',
+    error: '#F44336',
+    background: '#F8F9FA',
+    card: '#FFFFFF',
+    text: '#212529',
+    textLight: '#6C757D',
+    border: '#DEE2E6',
+    notification: '#F44336',
+    icon: '#ADB5BD',
+    placeholder: '#CED4DA',
+  },
+  spacing: {
+    xs: 4,
+    sm: 8,
+    md: 16,
+    lg: 24,
+    xl: 32,
+    xxl: 48,
+  },
+  borderRadius: {
+    sm: 4,
+    md: 8,
+    lg: 12,
+    xl: 16,
+    xxl: 24,
+    round: 999,
+  },
+  shadows: {
+    sm: {
+      shadowColor: '#000',
+      shadowOffset: {
+        width: 0,
+        height: 1,
+      },
+      shadowOpacity: 0.18,
+      shadowRadius: 1.0,
+      elevation: 1,
+    },
+    md: {
+      shadowColor: '#000',
+      shadowOffset: {
+        width: 0,
+        height: 2,
+      },
+      shadowOpacity: 0.23,
+      shadowRadius: 2.62,
+      elevation: 4,
+    },
+    lg: {
+      shadowColor: '#000',
+      shadowOffset: {
+        width: 0,
+        height: 4,
+      },
+      shadowOpacity: 0.30,
+      shadowRadius: 4.65,
+      elevation: 8,
+    },
+  },
+};

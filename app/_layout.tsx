@@ -1,5 +1,5 @@
 import { useCallback, useEffect } from 'react';
-import { Stack } from 'expo-router';
+import { Stack } from 'expo-router'; // comentario
 import { StatusBar } from 'expo-status-bar';
 import { useFonts, Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold } from '@expo-google-fonts/inter';
 import { useFrameworkReady } from '@/hooks/useFrameworkReady';

@@ -288,4 +288,4 @@ const styles = StyleSheet.create({
     color: AppTheme.colors.textLight,
     textAlign: 'center',
   },
-});
+});//
